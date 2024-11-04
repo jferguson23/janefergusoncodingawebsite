@@ -1,0 +1,418 @@
+@charset "UTF-8";
+
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #AE651A;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 0px;
+}
+h2{
+    font-family: "Libre Baskerville", serif;
+    font-style: normal;
+    color: #AE651A;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #E0B09D;
+    font-size: 23px;
+    text-align: center;
+}
+h4{
+    font-family: "Libre Baskerville", serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #AE651A;
+    text-align: center;
+    font-size: 19px;
+		}
+h5{
+	 font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #AE651A;
+    font-size: 23px;
+    text-align: center;
+	margin-top: 10px;
+	
+}
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+	 font-size: 20px;
+    color: #050100;
+	background-color: #EFEDE7;
+    margin: 0px;
+    margin-right: 5px;
+    padding-left: 0%;
+   
+}
+
+header{
+	background-color: #EDCEAE;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-top: -5px;
+}
+
+section{
+    background-color: #EFEDE7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 15%;
+    padding-left: 15%;
+    float: none;
+    
+}
+article{
+	background-color: #EFEDE7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+    padding-left: 7%;
+    float: none;
+}
+aside{
+  /*  background-image: url("img/patternbackgroundimg.png");*/
+    background-color: #EFEDE7;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow-y: visible;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    padding-right: 15%;
+    padding-left: 15%;
+    float: none;
+}
+
+footer{
+	background-color: #EDCEAE;
+	padding: 10%
+}
+
+.gillsansfont{
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+	 font-size: 20px;
+    color: #050100;
+	}
+
+.button a {
+    background-color: #EDCEAE;
+    color: #AE651A;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+	font-family: "Libre Baskerville", serif;
+	font-size: 25px;
+}
+.button a:hover {
+	background-color: #AE651A;
+	color: #EDCEAE;
+	}
+.button2 a {
+    background-color: #AE651A;
+    color: #EDCEAE;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+	text-decoration: none;
+	font-family: "Libre Baskerville", serif;
+	font-size: 25px;
+}
+.button2 a:hover {
+	background-color: #EFEDE7;
+	color: #AE651A;
+	}
+
+.largebutton a {
+    background-color: #EDCEAE;
+    color: #AE651A;
+    font-family: "Libre Baskerville", serif;
+    padding-right: 333px;
+    padding-left: 333px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    border: 5px solid #AE651A;
+    margin-top: 0px;
+    margin-right: -120px;
+    margin-bottom: 2px;
+    margin-left: -125px;
+}
+
+.largebutton a:hover {
+	background-color: #AE651A;
+	color: #EDCEAE;
+	 border: 5px solid #EDCEAE;
+}
+
+.smallbutton a {
+    background-color: #67390b;
+    color: #e0b09d;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+	text-decoration: none;
+	font-family: "Libre Baskerville", serif;
+	font-size: 20px;
+}
+.smallbutton a:hover {
+	background-color: #e0b09d;
+	color: #67390b;
+	}
+
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightalign {
+	float: right;
+	padding-left: 100px;
+	 
+}
+
+.leftalign {
+	float: left;
+	padding-right: 100px;
+	  
+}
+
+
+.column {
+    flex: 1;
+    padding-top: 0px;
+	margin-right: 28px;
+	margin-left: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+ 
+a{
+    color: #AE651A;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+a:hover{
+	color: #EDCEAE;
+	background-color: #AE651A;
+}
+
+.verticlecenter{
+	display: flex;
+	align-items: center;
+	padding-left: 11.75%;
+    padding-right: 11.75%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	
+}
+.verticleleft{
+	display: flex;
+	align-items: left;
+	padding-left: 11.75%;
+    padding-right: 11.75%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	
+}
+blockquote {
+    background-color:#67390B;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    -webkit-box-shadow: 5px 5px 5px #E0B09D;
+    box-shadow: 10px 10px 10px #E0B09D;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.center-image {
+    text-align: center;
+	
+	
+}
+.typefacecolor{
+	border: 25px double #E0B09D;
+
+	padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+	font-size: 18px;
+}
+.readabilitychange {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border: 25px double #E0B09D;
+}
+.articlechange {
+	 border: 25px double #E0B09D;
+	 margin-right: 8.5%;
+    margin-left: 8.5%;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E0B09D;
+	 font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+	 /* Fix the navbar to the top */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+
+ul.topnav li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	
+}
+
+ul.topnav li a {
+  display: block;
+  color: #EFEDE7;
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #AE651A;}
+
+ul.topnav li a.active {background-color: #AE651A;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Float four columns side by side */
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+	
+
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;
+	margin-top: -20px;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #EDCEAE;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.blockcolor {
+	padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+	font-size: 18px;
+	 background-color:#67390B;
+    -webkit-box-shadow: 5px 5px 5px #E0B09D;
+    box-shadow: 10px 10px 10px #E0B09D;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.borderlines {
+	 padding-right: 5%;
+    padding-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border: 25px double #E0B09D;
+}
+img.floatleft{
+	float: left;
+	border-radius: 70px;
+	padding-right: 30px;
+}
+.orangefill{
+	background-color: #EDCEAE;
+	padding-top: 2%;
+	padding-right: 15%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	margin-top: -5px;
+}
+.whitefill{
+	background-color: #EFEDE7;
+	padding-top: 2%;
+	padding-right: 15%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	margin-top: -5px;
+}
